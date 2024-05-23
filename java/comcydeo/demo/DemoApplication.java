@@ -13,7 +13,7 @@ public class DemoApplication {
     private static UserRepository userRepository;
 
     public DemoApplication(UserRepository userRepository) {
-        this.userRepository = userRepository;
+        DemoApplication.userRepository = userRepository;
     }
 
     public static void main(String[] args) {
